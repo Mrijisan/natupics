@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://www.highrevenuegate.com/ucr9ig44g?key=0ad7481db6f8edafbcc869699eb7988c`
+					`https://natupics.000webhostapp.com/`  + encodeURI(path as string)
 				}`,
 			},
 		};
